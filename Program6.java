@@ -5,6 +5,7 @@ import java.util.Scanner;
 public class Program6{
     public static void main(String[] args){
       Scanner S = new Scanner(System.in);
+      final double pi = Math.PI
       System.out.println("Enter the radius:");
       System.out.println();
       double r = S.nextDouble();
@@ -13,9 +14,9 @@ public class Program6{
       System.out.println();
       System.out.println("The Diameter of the circle = " + Math.round(r*2*1000)/1000.0);
       System.out.println();
-      System.out.println("The Area of the circle = " + Math.round(((3.14159)*(r*r))*1000)/1000.0);
+      System.out.println("The Area of the circle = " + Math.round(((pi)*(r*r))*1000)/1000.0);
       System.out.println();
-      System.out.println("The Circumference of the circle = " + Math.round((3.14159*r*2)*1000)/1000.0);
+      System.out.println("The Circumference of the circle = " + Math.round((pi*r*2)*1000)/1000.0);
     }
 }
 //Paste console output below:
